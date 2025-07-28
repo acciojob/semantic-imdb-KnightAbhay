@@ -1,29 +1,37 @@
 <!DOCTYPE html>
-
 <html>
   <head>
+    <title>Robot - Movie Page</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <h1>Robot</h1>
+
     <nav>
-      <a id="nav-actor" href="#actor"> Actor </a>
+      <a id="nav-actor" href="#actor">Actor</a>
       <a id="nav-quote" href="#quote">Quote</a>
     </nav>
-    <summary>Story of chitti the robo.</summary>
 
-    <section id="actor">Rajnikanth is the superstar.</section>
-    <section id="quote">Speed one Tera hz , memory one zeta byte.</section>
+    <!-- Proper use of summary inside details -->
+    <details>
+      <summary>Story of Chitti the Robo.</summary>
+      <p>Chitti is a humanoid robot developed for helping humans but later becomes self-aware, leading to dramatic turns in the story.</p>
+    </details>
 
-    <aside>IMDB rating:9
-	release date: 12-12-2013
-	</aside>
-    
+    <section id="actor">
+      Rajnikanth is the superstar.
+    </section>
 
-    <footer>Produced by : Sankar</footer>
+    <section id="quote">
+      Speed one Tera Hz, memory one Zeta Byte.
+    </section>
 
-    <!-- the entire body must be written by student -->
+    <aside>IMDB rating: 9</aside>
+    <aside>Release date: 12-12-2013</aside>
+
+    <footer>Produced by: Shankar</footer>
+
     <script type="text/javascript" src="./script.js"></script>
   </body>
 </html>
